@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="reservation.walkthrough"
+             errors="0"
+             failures="4"
+             tests="5">
+  
+  <testsuite errors="0" failures="4" hostname="" id=""
+    name="App Layout" package="reservation.walkthrough" skipped="0"
+    tests="5" time="" timestamp="">
+    
+    
+      <testcase name="Element &lt;body&gt; was visible after 386 milliseconds.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarHeader&gt; is present.">
+        
+          <failure message="Expected &quot;present&quot; but got: &quot;null&quot;"></failure>
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarBrandLink&gt; is present.">
+        
+          <failure message="Expected &quot;present&quot; but got: &quot;null&quot;"></failure>
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#appBody&gt; is present.">
+        
+          <failure message="Expected &quot;present&quot; but got: &quot;null&quot;"></failure>
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#appLayout&gt; is present.">
+        
+          <failure message="Expected &quot;present&quot; but got: &quot;null&quot;"></failure>
+        
+        
+      </testcase>
+    
+    
+    </testsuite>
+  
+</testsuites>
