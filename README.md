@@ -46,7 +46,7 @@ terminal-a$ meteor reset
 # run your application as usual
 terminal-a$ meteor
 
-# install the nightwatch script
+# install the nightwatch script (you should only need to do this once)
 terminal-b$ cp .meteor/local/build/programs/server/assets/packages/clinical_nightwatch/launch_nightwatch_from_app_root.sh run_nightwatch.sh
 terminal-b$ sudo chmod +x run_nightwatch.sh
 
@@ -55,22 +55,6 @@ terminal-b$ sudo ./run_nightwatch.sh
 
 # you might want to do something clever like pass in arguments and run specific tests
 terminal-b$ sudo ./run_nightwatch.sh -t tests/nightwatch/leaderboard.js
-````
-
-
-````sh
-# optional:  you may want to reset your application data
-terminal-a$ meteor reset
-
-
-
-# then open up a second terminal and run_nightwatch to run all tests
-terminal-b$ sudo chmod g+x run_nightwatch.sh
-terminal-b$ sudo ./run_nightwatch.sh
-
-# or specify a specific test
-terminal-b$ sudo ./run_nightwatch.sh -t tests/homePage.js
-
 ````
 
 ============================
