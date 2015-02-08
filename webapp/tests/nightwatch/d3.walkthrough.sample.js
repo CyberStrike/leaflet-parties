@@ -12,7 +12,7 @@
 //     .verify.elementPresent("#getTheCodeLink")
 //
 //     .verify.elementPresent("#appBody")
-//     .verify.elementPresent("#appLayout")
+//     .verify.elementPresent("#mainLayout")
 //
 //     .verify.elementPresent("#dashboardPage")
 //

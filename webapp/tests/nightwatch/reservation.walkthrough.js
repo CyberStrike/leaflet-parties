@@ -8,12 +8,14 @@ module.exports = {
     .waitForElementVisible("body", 1000)
 
     .verify.elementPresent("#navbarHeader")
+    .verify.elementPresent("#navbarHeaderNav")
     .verify.elementPresent("#navbarBrandLink")
 
-    .verify.elementPresent("#appBody")
-    .verify.elementPresent("#appLayout")
+    .verify.elementPresent("#mainLayout")
+    .verify.elementPresent("#mainPanel")
 
-  
+    .verify.elementPresent("#navbarFooter")
+    .verify.elementPresent("#navbarFooterNav")
 
     .end();
   }

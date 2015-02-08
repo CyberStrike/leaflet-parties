@@ -6,11 +6,17 @@
 http
 standard-app-packages
 insecure
-mrt:leaflet-0.6.4
+
 service-configuration
 accounts-base
 accounts-password
 accounts-github
-bootstrap
+
+iron:router
+nemo64:bootstrap
+natestrauser:font-awesome
+
+clinical:ui-vocabulary
 clinical:nightwatch
 
+mrt:leaflet-0.6.4
