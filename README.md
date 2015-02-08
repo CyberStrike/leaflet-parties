@@ -6,12 +6,12 @@ Execellent example of an upgraded Parties example, using Leaflet.
 [Realtime Maps With Meteor and Leaflet - Part One](http://asynchrotron.com/blog/2013/12/27/realtime-maps-with-meteor-and-leaflet/)  
 [Realtime Maps With Meteor and Leaflet - Part Two](http://asynchrotron.com/blog/2013/12/28/realtime-maps-with-meteor-and-leaflet-part-2//)  
 
-
+![travis-build](https://travis-ci.org/awatson1978/leaflet-parties.svg?branch=master)  
 
 ============================
 #### Meteor Version  
 
-1.0
+1.0.3.1
 
 ============================
 #### Installation  
